@@ -30,6 +30,7 @@ public class Reto8Abril {
             }else {
                 System.out.println("Saludos");
             }
+            saludos.close();
         }
     }
 
