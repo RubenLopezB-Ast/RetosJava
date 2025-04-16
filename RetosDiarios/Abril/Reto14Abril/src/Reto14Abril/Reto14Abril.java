@@ -1,5 +1,18 @@
 package Reto14Abril;
-
+//Hoy en clase, a Federico le han dicho que las flashcards son un buen método de estudio .
+// Pero Federico no tiene nada para escribir en su casa. ¿Se te ocurre alguna forma para que
+// pueda estudiar con el método mencionado? . Pues claro que sí, vas a crear un programa que:
+//Almacene las flashcards en una lista (pregunta, respuesta).
+//Permita al usuario añadir nuevas flashcards.
+//Muestra una pregunta aleatoria de la lista.
+//Solicite una respuesta del usuario.
+//Compare la respuesta del usuario con la correcta.
+//Indique si la respuesta es correcta o incorrecta.
+//Permita continuar practicando o salir.
+//Ejemplo:
+//Anverso: La programación es…
+//Reverso: Darle una serie de instrucciones a una máquina para que ejecute una acción
+//específica.
 import java.util.ArrayList;
 import java.util.Scanner;
 import java.util.Random;
