@@ -1,5 +1,16 @@
 package Reto19Abril;
 import java.util.Scanner;
+/*Simula un cajero automático con un saldo inicial. Permite al usuario realizar las siguientes
+acciones (usando un bucle for para un máximo de 3 intentos fallidos de PIN):
+Introducir PIN: Pide al usuario un PIN (establece uno secreto). Si lo introduce incorrectamente 3
+veces, bloquea la cuenta (simula esto con un mensaje y terminal).
+Consultar Saldo: Muestra el saldo actual.
+Retirar Fondos: Pide la cantidad a retirar. Usa try-catch para manejar si el usuario introduce
+algo que no es un número. Si la cantidad es válida, verifica si hay suficiente saldo. Si no,
+informa del saldo insuficiente. Si todo va bien, resta la cantidad del saldo y muestra un mensaje
+de éxito.
+Salir: Termina la simulación. El programa debe mostrar un menú de opciones en cada paso hasta que
+el usuario elija salir o la cuenta se bloquee./*
 
 public class Reto19Abril {
     public static void main(String[] args) {
