@@ -10,7 +10,7 @@ algo que no es un número. Si la cantidad es válida, verifica si hay suficiente
 informa del saldo insuficiente. Si todo va bien, resta la cantidad del saldo y muestra un mensaje
 de éxito.
 Salir: Termina la simulación. El programa debe mostrar un menú de opciones en cada paso hasta que
-el usuario elija salir o la cuenta se bloquee./*
+el usuario elija salir o la cuenta se bloquee.*/
 
 public class Reto19Abril {
     public static void main(String[] args) {
