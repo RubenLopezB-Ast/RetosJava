@@ -30,7 +30,7 @@ public class Reto19Abril {
 
                 boolean salir = false;
                 while (!salir) {
-                    // Menú de opciones
+
                     System.out.println("MENÚ \n");
                     System.out.println("Selecciona una opción");
                     System.out.println("1. Consultar saldo");
